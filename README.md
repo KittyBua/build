@@ -6,7 +6,7 @@ For details and download of Tuxbox-Builder VM see: [Tuxbox-Builder](https://sour
 
 ### Install required packages (Debian 9/10)
 ```bash
-apt-get install -y gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential \
+sudo apt-get install -y gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential \
 chrpath socat cpio python python3 python3-pip python3-pexpect xz-utils debianutils \
 iputils-ping python3-git python3-jinja2 libegl1-mesa pylint3 xterm subversion locales-all \
 libxml2-utils ninja-build default-jre clisp libcapstone3 libsdl2-dev doxygen
@@ -15,7 +15,7 @@ NOTE: Older buildsystem versions < 3.2 need libsdl1.2-dev
 
 ### Recommended additional packages for graphical support (e.g. KDE ...) and analyzing (e.g. with Kdevelop):
 ```bash
-apt-get install -y gitk git-gui meld cppcheck clazy kdevelop
+sudo apt-get install -y gitk git-gui meld cppcheck clazy kdevelop
 ```
 
 ### Optional: In case of no configured git, please set your global git user data:
