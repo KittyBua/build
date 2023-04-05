@@ -92,7 +92,7 @@ YOCTO_GIT_URL=https://git.yoctoproject.org/git/poky
 # update of yocto layer is disabled on executing init script, for yocto oe it's better to use a tested tag, defined with $YOCTO_BRANCH_HASH
 YOCTO_LAYER_DO_UPDATE=0
 
-TUXBOX_LAYER_GIT_URL=https://github.com/KittyBua/meta-neutrino
+TUXBOX_LAYER_GIT_URL=https://github.com/KittyBua
 
 PYTHON2_LAYER_NAME=meta-python2
 PYTHON2_LAYER_GIT_URL=https://git.openembedded.org
