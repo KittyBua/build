@@ -30,7 +30,7 @@ For usage with other distributions see: [Yocto Project Quick Build](https://www.
 
 ## 1. Clone init script into a directory of your choice
 ```bash
-$:~ git clone https://github.com/tuxbox-neutrino/build.git
+$:~ git clone https://github.com/KittyBua/buildenv.git
 $:~ cd build
 ```
 
