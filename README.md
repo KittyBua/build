@@ -43,7 +43,7 @@ $:~ cd poky-3.2
 ```
 example:
 ```bash
-$:~ ./init.sh hd51
+$:~ ./init.sh bre2ze4k
 $:~ cd poky-3.2
 ```
 
@@ -51,7 +51,7 @@ $:~ cd poky-3.2
 Please use the possible machine type which you selected on [step 2](#2-execute-init-script)! Here as example we use hd51.
 This creates (if not exists!) the build directory named as hd51, sets the build environment and will print some lines:
 ```bash
-$:~ . ./oe-init-build-env hd51
+$:~ . ./oe-init-build-env bre2ze4k
 
 ### Shell environment set up for builds. ###
 
@@ -179,3 +179,5 @@ Further informations about yocto buildsystem you will find here:
 
 * https://www.yoctoproject.org/docs/latest/brief-yoctoprojectqs/brief-yoctoprojectqs.html
 * https://www.yoctoproject.org/docs/current/mega-manual/mega-manual.html
+
+Thanks to dbt Tux 
