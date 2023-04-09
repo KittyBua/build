@@ -77,7 +77,7 @@ CONF_VERSION = "1"
 # Choose neutrino source. Possible values are "tuxbox", "tango" or "ni"
 # Note: Successful build of foreign neutrino source is not guaranteed.
 #
-FLAVOUR = "tuxbox"
+FLAVOUR = "ni"
 #
 # Name of the image, default target name "neutrino-image"
 #IMAGE_BASENAME = "neutrino-image"
